@@ -1,0 +1,19 @@
+body {
+  font-family: sans-serif;
+  margin: 0; padding: 0;
+  background: #f9f9f9; color: #222;
+}
+header {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 10px; background: #6200ea; color: white;
+}
+header nav a { color: white; margin: 0 5px; text-decoration: none; }
+button { margin: 5px; padding: 8px 12px; cursor: pointer; }
+textarea, input { display: block; margin: 10px 0; padding: 10px; width: 100%; max-width: 500px; }
+pre { background: #eee; padding: 10px; }
+
+/* Dark Mode */
+body.dark-mode { background: #121212; color: #eee; }
+body.dark-mode header { background: #333; }
+body.dark-mode pre { background: #222; color: #ccc; }
+body.dark-mode textarea, body.dark-mode input { background: #1e1e1e; color: #eee; border: 1px solid #444; }
