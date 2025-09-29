@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ملاحظاتك</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>ملاحظاتك</h1>
+    <button id="darkModeToggle">🌓</button>
+    <nav>
+      <a href="index.html">الرئيسية</a>
+      <a href="notes.html">الملاحظات</a>
+      <a href="settings.html">الإعدادات</a>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <input id="noteTitle" placeholder="عنوان الملاحظة">
+      <textarea id="noteBody" placeholder="أكتب ملاحظاتك هنا..."></textarea>
+      <button id="saveNote">حفظ</button>
+      <button id="processNotes">📌 معالجة هذه الفئة</button>
+    </section>
+    <section id="notesList"></section>
+    <section>
+      <h3>نتيجة الـ AI</h3>
+      <pre id="aiOutput"></pre>
+    </section>
+  </main>
+  <script src="js/darkmode.js"></script>
+  <script src="js/notes.js"></script>
+</body>
+</html>
